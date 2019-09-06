@@ -58,6 +58,7 @@ Sub StocksH()
         Range("K" & j + 2).Value = percentchange
         Range("K" & j + 2).NumberFormat = "0.00%"
         Range("L" & j + 2).Value = V
+        Range("L" & j + 2).NumberFormat = "000,000"
         
             Select Case change
             Case Is > 0
