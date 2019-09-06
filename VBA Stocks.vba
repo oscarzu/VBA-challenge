@@ -78,6 +78,7 @@ Sub StocksH()
     End If
 Next i
 
+'Placing the headers for the second part 
     Cells(1, 16).Value = "Ticker"
     Cells(1, 17).Value = "Value"
     Cells(2, 15).Value = "Greatest % Increase"
